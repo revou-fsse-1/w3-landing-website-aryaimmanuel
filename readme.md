@@ -2,4 +2,4 @@
 
 # Screenshot
 
-![Immanuel Arya](image/ssghibli.jpg)\
+![Immanuel Arya](images/ssghibli.jpg)\
