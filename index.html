@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ghibli Fest Indonesia 2023</title>
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="images/logo.png" alt="logo" />
+      <ul class="city">
+        <li><a href="">Movies</a></li>
+        <li><a href="">Locations</a></li>
+      </ul>
+      <ul class="reservation">
+        <li><a href="">Reservation</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <header>
+        <h2 class="cgv-small">CGV Indonesia presents</h2>
+        <div class="totoro-header">
+          <img
+            class="totoro-image"
+            src="images/totoro.png"
+            alt="totoro on tree"
+          />
+          <h1 class="ghibli-text">
+            Colorful <br />
+            World <br />
+            of <br />
+            Ghibli
+          </h1>
+        </div>
+      </header>
+    </section>
+
+    <section id="movie">
+      <article>
+        <h2>Featuring</h2>
+        <div class="movie-list">
+          <div class="movie-card">
+            <img class="movie-image" src="images/nausica.jpg" alt="nausicaa" />
+            <p class="movie-title">Nausicaä of the Valley of the Wind</p>
+          </div>
+
+          <div class="movie-card">
+            <img
+              class="movie-image"
+              src="https://upload.wikimedia.org/wikipedia/en/0/02/My_Neighbor_Totoro_-_Tonari_no_Totoro_%28Movie_Poster%29.jpg"
+              alt="nausicaa"
+            />
+            <p class="movie-title">My Neighbor Totoro</p>
+          </div>
+
+          <div class="movie-card">
+            <img
+              class="movie-image"
+              src="https://upload.wikimedia.org/wikipedia/en/0/07/Kiki%27s_Delivery_Service_%28Movie%29.jpg"
+              alt="nausicaa"
+            />
+            <p class="movie-title">Kiki's delivery service</p>
+          </div>
+
+          <div class="movie-card">
+            <img
+              class="movie-image"
+              src="https://upload.wikimedia.org/wikipedia/en/8/8c/Princess_Mononoke_Japanese_poster.png"
+              alt="nausicaa"
+            />
+            <p class="movie-title">Princess Mononoke</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="theater">
+      <h2>Available at</h2>
+      <div class="location">
+        <div class="location-desc">
+          <h2 class="cgv-gi">CGV Grand Indonesia</h2>
+          <p>5th February 2023</p>
+        </div>
+        <img class="totoro-loc" src="images/totoro1.png" alt="totoro" />
+      </div>
+    </section>
+  </body>
+
+  <section class="reservation">
+    <h2>Reservation</h2>
+    <form>
+      <div>
+        <label for="name" class="large-label">Name</label>
+        <input id="name" type="text" />
+      </div>
+      <div>
+        <label for="email" class="large-label">Email</label>
+        <input id="email" type="email" />
+      </div>
+      <div class="full-width">
+        <input type="checkbox" id="newsletter" />
+        <label for="newsletter" class="small-label"
+          >The data I entered above is valid data</label
+        >
+      </div>
+      <div class="full-width">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </section>
+</html>
